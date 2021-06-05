@@ -1,0 +1,59 @@
+.fancy-title {
+  width: 100%;
+  height: auto;
+  min-height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  &__main {
+    position: absolute;
+    font-size: 220px;
+    color: 323232;
+    opacity: 0.1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    h1 {
+      font-size: 220px;
+      margin: 0;
+
+      @include for-phone-only {
+        font-size: 60px;
+      }
+    }
+  }
+
+  &__sub {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding: 15px 0;
+
+    &:before {
+      content: "";
+      width: 62px;
+      height: 2px;
+      background: #0c8194;
+      position: absolute;
+      top: 0;
+    }
+
+    span {
+      font-family: "Lora", serif;
+      font-style: italic;
+      font-size: 26px;
+      color: #37373e;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: 2px;
+      color: #37373e;
+      font-weight: 500;
+    }
+  }
+}

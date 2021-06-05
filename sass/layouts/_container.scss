@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  max-width: 1118px;
+  margin: 0 auto;
+
+  @include for-tablet-landscape-up {
+    padding: 0 30px;
+  }
+
+  @include for-tablet-portrait-up {
+    padding: 0 20px;
+  }
+
+  @include for-phone-only {
+    padding: 0 15px;
+  }
+}

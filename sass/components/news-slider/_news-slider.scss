@@ -1,0 +1,20 @@
+.news {
+  margin-top: 60px;
+
+  .event-slider__wrapper__float {
+    right: -15px;
+
+    @include for-phone-only {
+      right: -38px;
+    }
+  }
+
+  .event-slider__wrapper__content {
+    @include for-tablet-portrait-up {
+      flex-direction: column-reverse;
+    }
+    @include for-phone-only {
+      flex-direction: column-reverse;
+    }
+  }
+}
