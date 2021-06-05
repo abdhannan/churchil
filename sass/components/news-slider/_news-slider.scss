@@ -2,11 +2,15 @@
   margin-top: 60px;
 
   .event-slider__wrapper__float {
-    right: -15px;
+    right: -40px;
 
     @include for-phone-only {
       right: -38px;
     }
+  }
+
+  .event-slider__wrapper__float__arrow {
+    top: 22px;
   }
 
   .event-slider__wrapper__content {

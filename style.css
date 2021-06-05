@@ -1056,12 +1056,15 @@ textarea {
   margin-top: 60px;
 }
 .news .event-slider__wrapper__float {
-  right: -15px;
+  right: -40px;
 }
 @media (max-width: 599px) {
   .news .event-slider__wrapper__float {
     right: -38px;
   }
+}
+.news .event-slider__wrapper__float__arrow {
+  top: 22px;
 }
 @media (min-width: 600px) {
   .news .event-slider__wrapper__content {
